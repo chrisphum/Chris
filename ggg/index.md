@@ -3,4 +3,12 @@ title: Chris Humphrey
 layout: default
 ---
 
-<i>This text is italic</i>
+<div class="mid-section-cover">
+    <nav>
+        <h1>{{ site.author_name }}</h1>
+        {% include navigation.html %}
+    </nav>
+    <main class="sub-mid-section-cover">
+        {{ content }}
+    </main>
+</div>
