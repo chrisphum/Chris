@@ -5,7 +5,8 @@ layout: default
 
 <div class="mid-section-cover">
     <nav>
-        <h1><a href="google.com">{{ site.author_name }}</a></h1>
+        <h1>{{ site.author_name }}</h1>
+        {% include navigation2.html %}
     </nav>
     <main class="sub-mid-section-cover">      
         {{ 
