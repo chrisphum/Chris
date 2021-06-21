@@ -133,6 +133,8 @@ assets:
   plugins:
     css: { autoprefixer: {}}
     img: { optim: {}}
+    - jekyll-jupyter-notebook
+
 
   autoprefixer:
     browsers:
