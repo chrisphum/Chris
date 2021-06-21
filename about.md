@@ -12,7 +12,7 @@ layout: default
     </nav>
     <main class="sub-mid-section-cover">      
         {{ content }}
-     <body style="margin:0;padding:5">
+     <body style="margin:0;padding:5px">
 
         
 <h2 style="text-align: center;">&nbsp;&nbsp;</h2>
