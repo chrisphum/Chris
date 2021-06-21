@@ -1,20 +1,17 @@
 ---
-title: Chris Humphrey
 layout: default
 ---
-
-<div class="mid-section-cover" >
+<div class="mid-section-cover">
     <nav>
-
-        <h1><a href="/" style="color:#000000;text-decoration:none;">{{ site.author_name }}</a></h1>
-        
-
+        <h1>{{ site.author_name }}</h1>
+        {% include navigation.html %}
     </nav>
-    <main class="sub-mid-section-cover">      
+    <main class="sub-mid-section-cover">
         {{ content }}
 
-        
 
+
+<!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16508,14 +16505,34 @@ weighted avg       0.99      0.99      0.99      4620
 
 </html>
 
-      
-      
-      
-      
-      
-      
-      
-</main>      
-      
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
 </div>
