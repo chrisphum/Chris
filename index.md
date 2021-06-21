@@ -1,3 +1,5 @@
+---
 layout: home
-home_text: Text
-title: [Home Page Title]
+home_text: My Portfolio
+title: Chris Humphrey
+---
