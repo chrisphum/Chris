@@ -12,13 +12,25 @@ layout: default
     </nav>
     <main class="sub-mid-section-cover">      
         {{ content }}
-        <!DOCTYPE html>
+        
+        <h2 style="text-align: center;">Visualizing and Mapping Restaurants in Portland</h2>
+<p>Portland is a great city that I got to spend some time in this Summer. It's a city with an interesting vibe, and equally interesting restaurants. I came across a dataset provided by Yelp, and thought combing through the data would make for a fun project in data visualization.</p>
+<p>The dataset is a JSON file which contains (assumingly) all restaurants in Portland, along with attributes such as which cuisine they serve, and their GPS coordinates.</p>
+<p>I will be making two visualizations. After cleaning the data, I will make a violin plot showing the distribution of Yelp reviews in Portland, aggregated by cuisine type (Italien, American, Japanese, ...). Second, I will make a heatmap of the locations of restaurants scaled by the average rating of said restaurants.</p>
+<p>&nbsp;</p>
+        
+        
 <html>
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Untitled-Copy1</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
+    
+    
+    
+    
+    
 
 
 
