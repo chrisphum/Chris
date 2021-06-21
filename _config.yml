@@ -131,7 +131,7 @@ assets:
   sources:
     - _assets/custom
   plugins:
-    - jekyll-jupyter-notebook
+     - jekyll-jupyter-notebook
     css: { autoprefixer: {}}
     img: { optim: {}}
     
